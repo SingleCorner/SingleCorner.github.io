@@ -1,0 +1,18 @@
+---
+layout: page
+title: Flight
+group: navigation
+permalink: /flight
+---
+{% include JB/setup %}
+
+
+{% for category in site.categories %} 
+{% if category[0] == "飞行日志" %}
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endif %}
+{% endfor %}

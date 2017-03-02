@@ -1,0 +1,16 @@
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>{{ page.date | date: "%b %-d, %a, %Y %H:%M" }} by {{ site.author.nickname }}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <hr>
+  </div>
+</div>
