@@ -2,7 +2,6 @@
 layout: post
 categories: LoveStory
 title: 和少爷一路走来
-date: 2017.03.02 12:28 +0800
 permalink: /LoveStory
 ---
 
