@@ -3,7 +3,7 @@ layout: post
 categories: LoveStory
 title: 和少爷一路走来
 date: 2017.03.02 12:28 +0800
-permalink:/LoveStory
+permalink: /LoveStory
 ---
 
 2016年11月3日，我和我家少爷正式在一起的日子，我还记得那一早上，兴奋的无以言表。
