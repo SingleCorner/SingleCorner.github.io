@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: empty
 title:  职业生涯
 permalink: /cv
 <!-- group: navigation -->
@@ -12,6 +12,10 @@ permalink: /cv
 - 工作年限：5年
 
 ## 工作经验
+
+### 2017.07 - 2017.10
+- 自研运维项目：[SiCo-Ops](https://github.com/SiCo-Ops/sico)
+- 目标：使运维工作向移动端转移，根据日常运维习惯给出运维方案，运维人员只需要决定可以用什么方案。半夜或者不方便的时候，也能自行决策。
 
 ### 2016.10 - 2017.07
 - 公司：北京摩拜科技有限公司
