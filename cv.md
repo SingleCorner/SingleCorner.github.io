@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  职业线
+title:  职业生涯
 permalink: /cv
 <!-- group: navigation -->
 ---
@@ -11,40 +11,44 @@ permalink: /cv
 - 姓名：梁振一
 - 性别：男
 - 电话：18221155074
-- 毕业：广州大学华软软件学院 网络技术系 网络设计与管理 专科
-
-## 期望工作
-- 职位：DevOps（运维开发工程师）
-- 目标：协助企业实现自动化运维，主要在CI/CD集成，故障自动处理等。
+- 工作年限：5年
 
 ## 工作经验
 
-### 2016.10 - 2017.03
+### 2016.10 - 2017.07
 - 公司：北京摩拜科技有限公司
-- 职位：DevOps
-- 业绩：
-	- 由纯手工上线时代向自动化上线时代改造，目前已实现迭代的快速上线 
+- 职位：运维工程师
+- 工作内容：
+	- 配置文件变更为运维定义，并在前期预植入，保持2种方式构建并行
+	- 引入版本控制规范，分支规范来确保部署版本的信息。
+	- 引入jenkins规范CI流程
+	- 引入ansible进行批量管理，并为自动化部署准备
+	- 参与建立迁移流程，实现迁移方案，确保迁移方案可用。（已完成迁移，且中途未发生修改脚本）
+	- 搭建docker部署方案
 
 ### 2016.03 - 2016.10
 - 公司：上海轩言网络信息科技有限公司
-- 职位：DevOps
-- 业绩:
+- 职位：运维工程师
+- 工作内容:
 	- 协助企业由半自动化改造成自动化。
-	- docker集群的探索，引入docker swarm
-	- 基于docker swarm的自动化集成部署
+	- 定义开发规范。
+	- 定义构建规范。
+	- 6月底进行docker集群的探索，mesos+marathon，k8s，swarm，最终引入swarm（docker 1.12自带）
+	- 基于swarm的自动化集成部署方案的设计与实现
 
 ### 2015.03 - 2016.03
 - 公司：上海杰克斯网络科技有限公司
 - 职位：运维工程师
-- 职责：
+- 工作内容：
 	- 自动化运维构建 gitlab+jenkins+ansible，实现快速迭代构建的无运维直接参与
 	- git开发流程的培训与日常冲突解决
 	- 服务器监控cacti+nagios
 	- 运维系统开发，基于python on django
 	- 基于jira参与团队会议，与开发测试沟通进行便捷部署
 	- 基于ubuntu运维，维护常见的LNMP部署（mysql用RDS），基于ufw的防火墙策略。
-	- redis集群维护与数据恢复，迁槽、aof、rdb等数据备份迁移工作。
-	- syslog-ng,supervisor,erlang等多开发语言的服务支持搭建与配置
+	- redis集群维护与数据恢复（8+8），迁槽、aof、rdb等数据备份迁移工作。集群方案为redis3.0自身集群模式+集群配置工具
+	- syslog-ng,supervisor等服务搭建
+	- php，c++，erlang等多语言环境支持与配置
 
 ### 2014.03 - 2015.03
 - 公司：上海通路快建网络服务外包有限公司
@@ -72,9 +76,8 @@ permalink: /cv
 - 职责：浦东新区某政府项目的服务器巡检
 
 ## 目前状况
-- 近4年运维经验，从手工部署到现在自动化部署，环境与代码实现一键部署
-- 运维工具的开发,正在从python2过渡到python3,迎接ubuntu16.04
-- 正致力于将docker引入现有环境，以便于更快捷的部署，统一部署环境
-- 自动化项目地址，https://github.com/SingleCorner/AutoO_with_django
-- 目前在做的小东西，cherie，项目地址 https://github.com/SingleCorner/cherie 这个计划接入各云平台API，用于方便管理云服务器，并已经与微信公众号对接
-- 对cherie感兴趣的可以访问http://ops.siner.us 微信号关注Openneer
+- 5年运维经验，从手工部署到现在自动化部署，环境与代码实现一键部署
+- 致力于将docker引入整个开发构建流程，以便于更快捷的部署，拥有统一环境。
+- 基于gRPC的微服务架构，自动化运维工具，[SiCo-Ops](https://github.com/SiCo-Ops/sico)
+- API前端开发文档正在完善，使用swagger语法，[API developer docs](https://app.swaggerhub.com/apis/SingleCorner/SiCo-Ops/1.0.0)
+- 版本信息及使用指南也在慢慢完善，[Docs](https://docs.sico.io)
