@@ -22,13 +22,11 @@ permalink: /cv
 - 对裸机环境，docker，k8s环境均有实际部署编排方案
 
 ## 关键引路人
-### Adrien Moreau
-https://www.linkedin.com/in/adrmo/
-在杰克斯工作期间，跟随adrien，首次学习到ansible编排工具及devops理念，也是落地多家企业自动化方案的基石
+#### &emsp; [Adrien Moreau](https://www.linkedin.com/in/adrmo/)
+&emsp; 在杰克斯工作期间，跟随adrien，首次学习到ansible编排工具及devops理念，也是落地多家企业自动化方案的基石
 
-### 韦臻
-https://www.linkedin.com/in/weizhen/
-2016-2018，2年半时间，跟随韦臻，在3家企业中完成了devops的落地
+&emsp; [韦臻](https://www.linkedin.com/in/weizhen/)
+&emsp; 2016-2018，2年半时间，跟随韦臻，在3家企业中完成了devops的落地
 
 ## 技能栈
 ### 程序语言
