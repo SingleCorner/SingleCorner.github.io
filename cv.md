@@ -29,28 +29,27 @@ permalink: /cv
 &emsp; 2016-2018，2年半时间，跟随韦臻，在3家企业中完成了devops的落地
 
 ## 技能栈
+### &emsp;程序语言
+- bash
+- php [github项目](https://github.com/SingleCorner/AutoO)
+- python [github项目](https://github.com/SingleCorner/AutoO_with_django)
+- go [github项目](https://github.com/SICO-SYS/SiCo)
 
-  ### 程序语言
-  - bash
-  - php [github项目](https://github.com/SingleCorner/AutoO)
-  - python [github项目](https://github.com/SingleCorner/AutoO_with_django)
-  - go [github项目](https://github.com/SICO-SYS/SiCo)
-
-### 持续集成 / 持续部署
+### &emsp;持续集成 / 持续部署
 - 多种程序语言的构建方案，依赖优化及管理，运行时问题排查（c++ / java / nodejs / erlang / php / go / python ）
 - jenkins
 - gitlab-ci
 - Dockerfile面向cache优化提升构建速度
 - ansible [k8s部署项目](https://github.com/SingleCorner/ansible-for-k8s)
 
-### 分支管理
+### &emsp;分支管理
 - github-workflow
 - git-workflow
 
-### 服务网格
+### &emsp;服务网格
 - istio
 
-### 日志及监控
+### &emsp;日志及监控
 - grafana
 - prometheus
 - loki
