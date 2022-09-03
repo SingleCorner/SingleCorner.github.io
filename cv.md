@@ -25,15 +25,15 @@ permalink: /cv
 #### &emsp; [Adrien Moreau](https://www.linkedin.com/in/adrmo/)
 &emsp; 在杰克斯工作期间，跟随adrien，首次学习到ansible编排工具及devops理念，也是落地多家企业自动化方案的基石
 
-&emsp; [韦臻](https://www.linkedin.com/in/weizhen/)
+#### &emsp; [韦臻](https://www.linkedin.com/in/weizhen/)
 &emsp; 2016-2018，2年半时间，跟随韦臻，在3家企业中完成了devops的落地
 
 ## 技能栈
-### 程序语言
-- bash
-- php [github项目](https://github.com/SingleCorner/AutoO)
-- python [github项目](https://github.com/SingleCorner/AutoO_with_django)
-- go [github项目](https://github.com/SICO-SYS/SiCo)
+  ### 程序语言
+  - bash
+  - php [github项目](https://github.com/SingleCorner/AutoO)
+  - python [github项目](https://github.com/SingleCorner/AutoO_with_django)
+  - go [github项目](https://github.com/SICO-SYS/SiCo)
 
 ### 持续集成 / 持续部署
 - 多种程序语言的构建方案，依赖优化及管理，运行时问题排查（c++ / java / nodejs / erlang / php / go / python ）
