@@ -43,8 +43,8 @@ permalink: /cv
 - ansible [k8s部署项目](https://github.com/SingleCorner/ansible-for-k8s)
 
 ### &emsp;分支管理
-- github-workflow
-- git-workflow
+- github flow
+- git flow
 
 ### &emsp;服务网格
 - istio
