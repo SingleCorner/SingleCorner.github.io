@@ -24,7 +24,7 @@ permalink: /cv
 
 ## 关键引路人
 ### &emsp; [Adrien Moreau](https://www.linkedin.com/in/adrmo/)
-&emsp; 在杰克斯工作期间，跟随adrien，首次学习到ansible编排工具及devops理念，也是落地多家企业自动化方案的基石
+&emsp; 在杰克斯工作期间，跟随adrien，首次学习到ansible编排工具及devops理念，也是为多家企业落地devops方案的基石
 
 ### &emsp; [韦臻](https://www.linkedin.com/in/weizhen/)
 &emsp; 2016-2018，2年半时间，跟随韦臻，在3家企业中完成了devops的落地
@@ -100,13 +100,15 @@ permalink: /cv
   - 基于gitlab-ci达成面向o(1)的自动化集成过程，实现任意服务的产物交付以内部环境部署
   - 基于istio配合链路跟踪，完成对请求的采样及问题跟踪
 - 项目经验：AIUI[https://aiui.xfyun.cn](https://aiui.xfyun.cn)
-  - 负责改造构建及上线流程，去除手动合并及手动提交构建信息流程，减少构建出错概率，降低镜像持续迭代造成的大包问题。
+  - 负责改造构建及上线流程，去除手动合并及手动提交构建信息流程，减少构建出错概率，降低镜像持续迭代造成的大包问题
+  - 负责设计上线验证流程，集成QA团队的jemter自动化测试脚本，协助改造成命令行方式，对每次迭代自动化测试，去除了提测工单流程，减少30%工作量，提升了测试用例的迭代效率
   - 负责服务的运行稳定性，监控服务耗时及请求成功率
   - 迭代主动监控体系，定时请求，并对比预期结果与实际结果
-- 项目经验：CSK芯片固件交付[https://www.listenai.com](https://www.listenai.com)
-  - 通过对接企业微信API，完成域账号管理及处理固件定制化编译申请
-  - 基于gitlab-ci，在windows下通过powershell完成固件编译，并利用阿里云oss生成带过期时间的固件地址
-  - 基于python的flask框架，处理编译请求并调用gitlab触发编译工作流，完成后处理feedback，并调用开发平台的业务服务进行站内推送及邮件推送
+- 项目经验：CSK芯片开发平台[https://listenai.com/developer/](https://listenai.com/developer/)
+  - 负责芯片开发平台服务的自动化构建及上线部署
+  - 负责芯片固件调优流程设计，通过gitlab-ci在powershell中完成唤醒词调优固件生成
+  - 负责调优服务设计，基于python的flask框架，处理工具平台发起的调优请求，处理固件生成后的回调，调用推送服务进行平台推送及邮件推送
+  - 设计并实现ldap系统与企业微信API对接，完成ldap系统的账号注册
 - 离职：
   - 业务线独立成立聆思，需要base广深，人事关系需要变更，社保问题无法解决
   - 上海团队未组建成型，作为上海团队最后一人，临时退出
