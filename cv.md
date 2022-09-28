@@ -32,15 +32,14 @@ permalink: /cv
 ## 技能栈
 ### &emsp;程序语言
 - bash
-- php [github项目](https://github.com/SingleCorner/AutoO)
-- python [github项目](https://github.com/SingleCorner/AutoO_with_django)
-- go [github项目](https://github.com/SICO-SYS/SiCo)
+- php [https://github.com/SingleCorner/AutoO](https://github.com/SingleCorner/AutoO)
+- python [https://github.com/SingleCorner/AutoO_with_django](https://github.com/SingleCorner/AutoO_with_django)
+- go微服务 [https://github.com/SICO-SYS/SiCo](https://github.com/SICO-SYS/SiCo)
 
 ### &emsp;持续集成 / 持续部署
 - 多种程序语言的构建方案，依赖优化及管理，运行时问题排查（c++ / java / nodejs / erlang / php / go / python ）
-- jenkins
-- gitlab-ci
-- Dockerfile面向cache优化提升构建速度
+- jenkins / gitlab-ci / travis-ci
+- Dockerfile多阶段构建及cache复用优化
 - ansible [k8s部署项目](https://github.com/SingleCorner/ansible-for-k8s)
 
 ### &emsp;分支管理
@@ -51,9 +50,9 @@ permalink: /cv
 - istio
 
 ### &emsp;日志及监控
-- grafana
-- prometheus
-- loki
+- Grafana Lab( grafana / prometheus / loki )
+- zabbix
+- cacti + nagios
 
 ## 工作历程
 ### 2021.02 - 2022.08 (1.5年)
@@ -67,7 +66,7 @@ permalink: /cv
   - 负责产品私有化部署，实现在客户内网下的全自动化部署
   - 负责制定产物交付流程，实现多团队集成统一交付逻辑，降低部署成本
   - 负责私有化部署效率，实现快速交付，降低实施的边际成本
-- 项目经验： 产品私有化部署[https://www.rcrai.com](https://www.rcrai.com)（录音质检，销售辅助，话术挖掘）
+- 项目经验： 产品私有化部署 [https://www.rcrai.com](https://www.rcrai.com)（录音质检，销售辅助，话术挖掘）
   - 负责建立服务独立代码仓库与多服务混合仓库（monorepo）的代码规则及配置模版，辨识代码提交意图，完成相应的构建及部署
   - 负责研发、测试、基线环境的运维工作，基于ansible设计k8s下的部署流程，并协助完成运行问题排查
   - 基于gitlab-ci达成面向o(1)的自动化集成过程，实现任意服务的产物交付以内部环境部署
@@ -94,17 +93,17 @@ permalink: /cv
   - 保障iFLYOS，AIUI运行稳定性及可用性满足99.9%
   - 组建运维团队，完善基础运维，多维度监控，自动化体系建设上的不足
   - 设计芯片固件交付流程自动化，可直接推送固件至用户方，避免中间转发造成的信息错乱。
-- 项目经验：iFLYOS[https://www.iflyos.cn](https://www.iflyos.cn)
+- 项目经验：iFLYOS [https://www.iflyos.cn](https://www.iflyos.cn)
   - 负责自动化流程，基于gitlab-ci设计构建及部署，实现服务上线流程满足o(1)工作量
   - 负责全环境的运维，基于ansible设计k8s下的部署流程，并协助完成运行问题排查
   - 基于gitlab-ci达成面向o(1)的自动化集成过程，实现任意服务的产物交付以内部环境部署
   - 基于istio配合链路跟踪，完成对请求的采样及问题跟踪
-- 项目经验：AIUI[https://aiui.xfyun.cn](https://aiui.xfyun.cn)
+- 项目经验：AIUI [https://aiui.xfyun.cn](https://aiui.xfyun.cn)
   - 负责改造构建及上线流程，去除手动合并及手动提交构建信息流程，减少构建出错概率，降低镜像持续迭代造成的大包问题
   - 负责设计上线验证流程，集成QA团队的jemter自动化测试脚本，协助改造成命令行方式，对每次迭代自动化测试，去除了提测工单流程，减少30%工作量，提升了测试用例的迭代效率
   - 负责服务的运行稳定性，监控服务耗时及请求成功率
   - 迭代主动监控体系，定时请求，并对比预期结果与实际结果
-- 项目经验：CSK芯片开发平台[https://listenai.com/developer/](https://listenai.com/developer/)
+- 项目经验：CSK芯片开发平台 [https://listenai.com/developer/](https://listenai.com/developer/)
   - 负责芯片开发平台服务的自动化构建及上线部署
   - 负责芯片固件调优流程设计，通过gitlab-ci在powershell中完成唤醒词调优固件生成
   - 负责调优服务设计，基于python的flask框架，处理工具平台发起的调优请求，处理固件生成后的回调，调用推送服务进行平台推送及邮件推送
