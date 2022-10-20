@@ -11,23 +11,18 @@ permalink: /resume
 - 邮箱：<sinerwr@gmail.com>
 - 职业方向: SRE / DevOps / 研发能效
 
-## 工作宗旨
-持续面向o(1)，避免重复劳动，释放团队精力持续迭代
-
 ## 个人价值
-0. 7年DevOps经验，负责运维日pv亿级服务
-1. 主导完成多个团队从0到1落地DevOps方案，提升迭代效率，降低发布成本
-2. 负责网站服务的稳定性目标，制定SLO及相应的SLI，并跟踪运行质量
-3. 负责制定标准化方案减少信息传递，降低沟通成本，减少人为介入
-4. 定位服务异常，提出改进建议，提升稳定性目标
-5. scrum敏捷方法实践
+10年运维经验，7年DevOps落地经验。在6家公司独立完成方案的落地，实现完全自动化发布，为上百名研发工程师节省了大量时间。通过建立标准化，为服务的运行提供完全一致的环境，降低了故障时间及解决问题效率。善于与团队沟通，规避影响效率的需求，提供解决方案并完成落地。为公司在研发效率上完成降本增效目标。
+
+## 个人经历说明
+经历的团队，因业务停滞，或者base地变更而离职。目前DevOps能力在不同团队的需求下迭代而成，能适应更多的场景。
 
 ## 技能栈
 ### &emsp;程序语言
-- bash
 - php [https://github.com/SingleCorner/AutoO](https://github.com/SingleCorner/AutoO)
 - python [https://github.com/SingleCorner/AutoO_with_django](https://github.com/SingleCorner/AutoO_with_django)
 - go微服务 [https://github.com/SICO-SYS/SiCo](https://github.com/SICO-SYS/SiCo)
+- bash
 
 ### &emsp;持续集成 / 持续部署
 - 多种程序语言的构建方案，依赖优化及管理，运行时问题排查（c++ / java / nodejs / erlang / php / go / python ）
@@ -55,8 +50,12 @@ permalink: /resume
   - 监控日志方向
   - 基础设施方向
   - 业务部署方向
+- 合作贡献：
+  1. 在客户数据中心的复杂环境中，除网络传输等待时间，在裸金属服务器上完成从k8s环境到业务的10分钟部署方案，保证一次性部署成功率100%
+  2. 对接两个团队完成产品服务输出全自动化流程，commit as a delivery，减少大量工单式部署，将部署工作量压缩至接近于0
+  3. 设计实施侧与产研侧的交付描述语言，通过少量的字段即可描述整个部署过程。
 - 工作内容：
-  - 负责产品私有化部署，实现在客户内网下的全自动化部署
+  - 负责产品私有化部署设计，实现在客户内网下的全自动化部署
   - 负责制定产物交付流程，实现多团队集成统一交付逻辑，降低部署成本
   - 负责私有化部署效率，实现快速交付，降低实施的边际成本
 - 项目经验： 产品私有化部署 [https://www.rcrai.com](https://www.rcrai.com)（录音质检，销售辅助，话术挖掘）
