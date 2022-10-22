@@ -48,7 +48,7 @@ permalink: /resume
   - 监控日志方向
   - 基础设施方向
   - 业务部署方向
-- 负责项目案例： 产品私有化部署 [https://www.rcrai.com](https://www.rcrai.com)（录音质检，销售辅助，话术挖掘）
+- 负责项目： 产品私有化部署 [https://www.rcrai.com](https://www.rcrai.com)（录音质检，销售辅助，话术挖掘）
 - 工作成果：
   1. 在客户数据中心的复杂环境中，除网络传输等待时间，在裸金属服务器上完成从k8s环境到业务的10分钟部署方案
   2. 工程，算法团队的服务产物输出全自动化流程，完成自动化部署及发布，减少大量工单式部署，将部署工作量压缩至接近于0
@@ -73,6 +73,9 @@ permalink: /resume
   - 常规自动化发布
   - 日志及监控系统
 - 特殊说明： 聆思智能科技为原讯飞AIoT事业部成员成立新公司，由原讯飞执行总裁及原讯飞AI研究院院长领导。相关新闻参考 https://baijiahao.baidu.com/s?id=1712030720293543350
+- 负责项目:
+  - iFLYOS [https://www.iflyos.cn](https://www.iflyos.cn)
+  - AIUI [https://aiui.xfyun.cn](https://aiui.xfyun.cn)
 - 工作成果：
   1. 支持[iFLYOS, AIUI, listenAI] 3个项目200+微服务的自动化发布，日迭代20余次，对新增的微服务实现o(1)接入CICD。
   2. 自动化处理服务依赖的基础设施，比如数据库实例，账号，密码等
