@@ -115,7 +115,6 @@ permalink: /resume
   3. 容器化与宿主双模式运行过渡切换
 - 工作内容：
   - 负责研发团队CI/CD流程，编写java构建脚本，维护nexus依赖仓库，基于jenkins + ansible实现pipeline设计，完成服务迭代的自动化流程
-  - 负责容器化运行环境，通过maven编译的jar包，发布到服务器上，使用docker容器环境挂载程序及配置
   - 负责config.properties及pom.xml的模版化，在研发测试生产环境自动化生成对应的配置
   - 负责容器化改造过渡方案，通过映射编译后程序及配置到jre镜像，自定义启动命令替代原本宿主裸启动方式
   - 负责php，nodejs容器运行环境的支持，php模块预安装支持
