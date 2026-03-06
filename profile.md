@@ -152,16 +152,10 @@ li { margin: 8px 0; }
 
 ---
 
-## 教育背景
-
-- 上海应用技术大学 - 计算机科学与技术（2010-2014）
-
----
-
 ## 联系方式
 
 - 手机：18221155074
-- 邮箱：sinerwr@gmail.com
+- 邮箱：sine@seasea.cc
 - GitHub：https://github.com/SingleCorner
 
 
